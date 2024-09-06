@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Feedback form</title>
+
+</head>
+<body>
+<h2>Submit Your Feedback</h2>
+<form action="FeedbackServlet" method="POST">
+    <label for="name">Your Name:</label>
+    <input type="text" id="name" name="name" required><br><br>
+
+    <label for="book_name">Book Name:</label>
+    <input type="text" id="book_name" name="book_name" required><br><br>
+
+    <label for="feedback">Feedback:</label>
+    <textarea id="feedback" name="feedback" required></textarea><br><br>
+
+    <input type="submit" value="Submit">
+</form>
+</body>
+</html>
